@@ -1,13 +1,29 @@
-*, ::after, ::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .banner {
-    height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0,0,0,0.4)), url('bg.jpg');
-    background-size: cover;
-    background-position: center;
+  height: 100vh;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
 
+.hovered-card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+@media (min-width: 360px) and (max-width: 600px) {
+  .card {
+    width: 45%;
+    justify-content: center;
+    margin: 2rem auto;
+    display: flex;
+  }
 }

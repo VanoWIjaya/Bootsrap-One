@@ -39,7 +39,7 @@
                 <a
                   class="nav-link active text-light"
                   aria-current="page"
-                  href="#"
+                  href="#Home"
                   >Home</a
                 >
               </li>
@@ -50,7 +50,7 @@
                 <a class="nav-link text-light" href="#">Harga</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="#">Lokasi</a>
+                <a class="nav-link text-light" href="#Promo">Promo</a>
               </li>
             </ul>
           </div>
@@ -60,7 +60,7 @@
     <!-- Navbar End -->
 
     <!-- Banner Start -->
-    <div class="container-fluid banner d-flex align-items-center">
+    <div class="container-fluid banner d-flex align-items-center" id="Home">
       <div class="container">
         <h2 class="text-light text-center display-5 mb-1">Welcome to UP RPL</h2>
         <h3 class="text-light text-center display7 mb-1">
@@ -68,7 +68,7 @@
         </h3>
         <br />
         <div class="col-md">
-          <div class="input-group">
+          <div class="input-group input-group-lg">
             <select
               class="form-select"
               id="inputGroupSelect04"
@@ -82,7 +82,7 @@
               <option value="5">Pheripheral Komputer</option>
             </select>
             <button
-              class="btn btn-lg btn-outline-danger text-light"
+              class="btn btn-lg btn-outline-dark text-light"
               type="button"
             >
               Pesan
@@ -92,6 +92,55 @@
       </div>
     </div>
     <!-- Banner End -->
+
+    <!-- Promo Tab Start -->
+    <div class="container-fluid py-5" id="Promo">
+      <div class="container">
+        <h2 class="text-center">Promo Hari Ini</h2>
+        <div class="row mt-5 justify-content-center d-flex gap-4">
+          <div class="col-md-3 hovered-card">
+            <div class="card">
+              <img src="print.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Promo Flash Sale</h5>
+                <p class="card-text">
+                  Gratis Print Hitam Putih untuk pembelian apapun diatas 50.000
+                </p>
+                <a href="#" class="btn btn-primary">Beli</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 hovered-card">
+            <div class="card">
+              <img src="diskon.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Diskon Hari Kawilaras</h5>
+                <p class="card-text">
+                  Setiap hari khamis setiap awal bulan, dapatkan diskon 10%
+                  untuk semua produk
+                </p>
+                <a href="#" class="btn btn-primary">Beli</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 hovered-card">
+            <div class="card">
+              <img src="buy1get1.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Promo Buy 1 Get 1</h5>
+                <p class="card-text">
+                  Untuk setiap pembelian 1 rim kertas HVS A4, gratis print hitam
+                  putih 1 lembar
+                </p>
+                <a href="#" class="btn btn-primary">Beli</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Promo Tab End -->
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
