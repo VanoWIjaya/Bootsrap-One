@@ -6,8 +6,8 @@
   box-sizing: border-box;
 }
 
-.margin{
-  margin-right: 30px;
+.margin {
+  margin-top: 2rem;
 }
 
 .banner {
@@ -37,5 +37,13 @@
     justify-content: center;
     margin: 2rem auto;
     display: flex;
+  }
+}
+
+@media (max-width: 768px) {
+  .sm-justify-center {
+    justify-content: center;
+    display: flex;
+    align-items: center;
   }
 }
