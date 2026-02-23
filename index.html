@@ -15,6 +15,10 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -62,6 +66,9 @@
                 <li class="nav-item">
                   <a class="nav-link text-light" href="#Product">Produk</a>
                 </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#Review">Review</a>
+                </li>
               </ul>
             </div>
           </div>
@@ -71,8 +78,8 @@
     <!-- Navbar End -->
 
     <!-- Banner Start -->
-    <section>
-      <div class="container-fluid banner d-flex align-items-center" id="Home">
+    <section id="Home">
+      <div class="container-fluid banner d-flex align-items-center">
         <div class="container">
           <h2 class="text-light text-center display-5 mb-1">
             Welcome to UP RPL
@@ -115,7 +122,7 @@
           <h2 class="text-center justify-content-center mb-5">
             Promo Hari Ini
           </h2>
-          <div class="row justify-content-center d-flex margin">
+          <div class="row justify-content-center d-flex margin column-gap-5">
             <div class="col-sm-6 col-lg-3 col-md-3 hovered-card margin">
               <div class="card">
                 <img
@@ -174,11 +181,13 @@
     <!-- Promo Tab End -->
 
     <!-- Service Section Start -->
-    <section style="background-color: #393a3f">
-      <div class="container-fluid py-5" id="Service">
+    <section id="Service">
+      <div class="container-fluid py-5" style="background-color: #1d2d7e">
         <div class="container">
           <h2 class="text-light text-center mb-5">Layanan Kami</h2>
-          <div class="row align-items-center sm-justify-between justify-content-between d-flex">
+          <div
+            class="row align-items-center sm-justify-between justify-content-between d-flex"
+          >
             <div class="col-sm-6 col-lg-3 hovered-card mb-5">
               <div class="d-flex justify-content-center">
                 <div
@@ -268,7 +277,11 @@
             </div>
             <div class="col-sm-6 col-lg-3 hovered-card mb-3">
               <div class="card mb-3">
-                <img src="Product/Print/print-warna.jpg" class="card-img-top" alt="Produk Print" />
+                <img
+                  src="Product/Print/print-warna.jpg"
+                  class="card-img-top"
+                  alt="Produk Print"
+                />
                 <div class="card-body text-center">
                   <h5 class="card-title text-warning">Print Warna</h5>
                   <p class="card-text">
@@ -280,7 +293,11 @@
             </div>
             <div class="col-sm-6 col-lg-3 hovered-card mb-3">
               <div class="card mb-3">
-                <img src="Product/Print/print-full-warna.jpg" class="card-img-top" alt="Produk Print" />
+                <img
+                  src="Product/Print/print-full-warna.jpg"
+                  class="card-img-top"
+                  alt="Produk Print"
+                />
                 <div class="card-body text-center">
                   <h5 class="card-title text-warning">Print Full Warna</h5>
                   <p class="card-text">Print Full Warna berkualitas tinggi.</p>
@@ -290,7 +307,11 @@
             </div>
             <div class="col-sm-6 col-lg-3 hovered-card mb-3">
               <div class="card mb-3">
-                <img src="Product/Print/print-foto.jpg" class="card-img-top" alt="Produk Print" />
+                <img
+                  src="Product/Print/print-foto.jpg"
+                  class="card-img-top"
+                  alt="Produk Print"
+                />
                 <div class="card-body text-center">
                   <h5 class="card-title text-warning">Print Foto</h5>
                   <p class="card-text">
@@ -302,7 +323,11 @@
             </div>
             <div class="col-sm-6 col-lg-3 hovered-card mb-3">
               <div class="card mb-3">
-                <img src="Product/Print/scan.jpg" class="card-img-top" alt="Produk Print" />
+                <img
+                  src="Product/Print/scan.jpg"
+                  class="card-img-top"
+                  alt="Produk Print"
+                />
                 <div class="card-body text-center">
                   <h5 class="card-title text-warning">Scan</h5>
                   <p class="card-text">
@@ -318,7 +343,11 @@
           <div class="row justify-content-center d-flex mb-4">
             <div class="col-sm-6 col-lg-3 hovered-card mb-3">
               <div class="card mb-3">
-                <img src="Product/ATK/pensil.jpg" class="card-img-top" alt="Produk Print" />
+                <img
+                  src="Product/ATK/pensil.jpg"
+                  class="card-img-top"
+                  alt="Produk Print"
+                />
                 <div class="card-body text-center">
                   <h5 class="card-title text-warning">Pensil</h5>
                   <p class="card-text">
@@ -330,7 +359,11 @@
             </div>
             <div class="col-sm-6 col-lg-3 hovered-card mb-3">
               <div class="card mb-3">
-                <img src="Product/ATK/Bolpoin.jpg" class="card-img-top" alt="Produk Print" />
+                <img
+                  src="Product/ATK/Bolpoin.jpg"
+                  class="card-img-top"
+                  alt="Produk Print"
+                />
                 <div class="card-body text-center">
                   <h5 class="card-title text-warning">Bolpoin</h5>
                   <p class="card-text">
@@ -342,7 +375,11 @@
             </div>
             <div class="col-sm-6 col-lg-3 hovered-card mb-3">
               <div class="card mb-3">
-                <img src="Product/ATK/buku-tulis.jpg" class="card-img-top" alt="Produk Print" />
+                <img
+                  src="Product/ATK/buku-tulis.jpg"
+                  class="card-img-top"
+                  alt="Produk Print"
+                />
                 <div class="card-body text-center">
                   <h5 class="card-title text-warning">Buku Tulis</h5>
                   <p class="card-text">
@@ -354,7 +391,11 @@
             </div>
             <div class="col-sm-6 col-lg-3 hovered-card mb-3">
               <div class="card mb-3">
-                <img src="Product/ATK/penghapus.jpg" class="card-img-top" alt="Produk Print" />
+                <img
+                  src="Product/ATK/penghapus.jpg"
+                  class="card-img-top"
+                  alt="Produk Print"
+                />
                 <div class="card-body text-center">
                   <h5 class="card-title text-warning">Penghapus</h5>
                   <p class="card-text">
@@ -366,7 +407,11 @@
             </div>
             <div class="col-sm-6 col-lg-3 hovered-card mb-3">
               <div class="card mb-3">
-                <img src="Product/ATK/penggaris.jpg" class="card-img-top" alt="Produk Print" />
+                <img
+                  src="Product/ATK/penggaris.jpg"
+                  class="card-img-top"
+                  alt="Produk Print"
+                />
                 <div class="card-body text-center">
                   <h5 class="card-title text-warning">Penggaris</h5>
                   <p class="card-text">
@@ -378,7 +423,11 @@
             </div>
             <div class="col-sm-6 col-lg-3 hovered-card mb-3">
               <div class="card mb-3">
-                <img src="Product/ATK/busur.jpg" class="card-img-top" alt="Produk Print" />
+                <img
+                  src="Product/ATK/busur.jpg"
+                  class="card-img-top"
+                  alt="Produk Print"
+                />
                 <div class="card-body text-center">
                   <h5 class="card-title text-warning">Busur</h5>
                   <p class="card-text">
@@ -394,7 +443,11 @@
           <div class="row justify-content-center d-flex">
             <div class="col-sm-6 col-lg-3 hovered-card mb-3">
               <div class="card mb-3">
-                <img src="Product/Peripheral/mouse.jpg" class="card-img-top" alt="Produk Print" />
+                <img
+                  src="Product/Peripheral/mouse.jpg"
+                  class="card-img-top"
+                  alt="Produk Print"
+                />
                 <div class="card-body text-center">
                   <h5 class="card-title text-warning">Mouse</h5>
                   <p class="card-text">
@@ -406,7 +459,11 @@
             </div>
             <div class="col-sm-6 col-lg-3 hovered-card mb-3">
               <div class="card mb-3">
-                <img src="Product/Peripheral/keyboard.jpg" class="card-img-top" alt="Produk Print" />
+                <img
+                  src="Product/Peripheral/keyboard.jpg"
+                  class="card-img-top"
+                  alt="Produk Print"
+                />
                 <div class="card-body text-center">
                   <h5 class="card-title text-warning">Keyboard</h5>
                   <p class="card-text">
@@ -418,7 +475,11 @@
             </div>
             <div class="col-sm-6 col-lg-3 hovered-card mb-3">
               <div class="card mb-3">
-                <img src="Product/Peripheral/headphone.jpg" class="card-img-top" alt="Produk Print" />
+                <img
+                  src="Product/Peripheral/headphone.jpg"
+                  class="card-img-top"
+                  alt="Produk Print"
+                />
                 <div class="card-body text-center">
                   <h5 class="card-title text-warning">Headphone</h5>
                   <p class="card-text">
@@ -433,6 +494,130 @@
       </div>
     </section>
     <!-- Product Section End -->
+
+    <!-- Review Section Start -->
+    <section id="Review">
+      <div
+        class="container-fluid py-5 testimony"
+        style="background-color: #1d2d7e"
+      >
+        <div class="container">
+          <div class="row justify-content-center d-flex mb-4 row-gap-3">
+            <h2 class="text-center text-light mb-2">Review Customer</h2>
+            <p
+              class="text-center mb-5"
+              style="color: rgba(255, 255, 255, 0.6); font-size: 0.95rem"
+            >
+              Kepuasan pelanggan adalah prioritas kami.
+            </p>
+            <!-- Card 1 -->
+            <div class="col-sm-6 col-lg-4">
+              <div class="testimony-card">
+                <div class="quote-icon">"</div>
+                <h5 class="text-light">Pelayanan Terbaik!</h5>
+                <div class="author text-light">- Fabian Risky F.</div>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"> </i>
+                </div>
+                <p class="text-light">
+                  Saya rekomendasi karena pelayanan yang ramah, tempat yang
+                  nyaman, dan kelengkapan layanan.
+                </p>
+              </div>
+            </div>
+            <!-- Card 1 End -->
+            <!-- Card 2 -->
+            <div class="col-sm-6 col-lg-4">
+              <div class="testimony-card">
+                <div class="quote-icon">"</div>
+                <h5 class="text-light">Pelayanan Tiada Tara</h5>
+                <div class="author text-light">- M. Ilham Putra I.</div>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"> </i>
+                </div>
+                <p class="text-light">
+                  Hasil memuaskan,pelayanan sangat baik,pengerjaan juga cepat.
+                </p>
+              </div>
+            </div>
+            <!-- Card 2 End -->
+            <!-- Card 3 -->
+            <div class="col-sm-6 col-lg-4">
+              <div class="testimony-card">
+                <div class="quote-icon">"</div>
+                <h5 class="text-light">Harga Sangat Terjangkau</h5>
+                <div class="author text-light">- Alfryzza A.</div>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"> </i>
+                </div>
+                <p class="text-light">
+                  Harga sangat terjangkau, rekomen pokoknya!
+                </p>
+              </div>
+            </div>
+            <!-- Card 3 End -->
+            <!-- Card 4 -->
+            <div class="col-sm-6 col-lg-4">
+              <div class="testimony-card">
+                <div class="quote-icon">"</div>
+                <h5 class="text-light">Kualitas Terbaik!</h5>
+                <div class="author text-light">- Revan O.</div>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"> </i>
+                </div>
+                <p class="text-light">
+                  Kualitas cetakan sangat tajam, tidak kotor, dan bersih.
+                </p>
+              </div>
+            </div>
+            <!-- Card 4 End -->
+            <!-- Card 5 -->
+            <div class="col-sm-6 col-lg-4">
+              <div class="testimony-card">
+                <div class="quote-icon">"</div>
+                <h5 class="text-light">Harga Murah Meriah</h5>
+                <div class="author text-light">- Dawwas Haykal</div>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"> </i>
+                </div>
+                <p class="text-light">
+                  Percetakan murah meriah dengan hasil memuaskan, mantap.
+                </p>
+              </div>
+            </div>
+            <!-- Card 5 End -->
+            <!-- Card 6 -->
+            <div class="col-sm-6 col-lg-4">
+              <div class="testimony-card">
+                <div class="quote-icon">"</div>
+                <h5 class="text-light">Pilihan Utama Untuk Tugas</h5>
+                <div class="author text-light">- Rama Fitri A.</div>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i>
+                </div>
+                <p class="text-light">
+                  Pilihan utama untuk pencetakan tugas bila waktu sudah mepet ❤️
+                </p>
+              </div>
+            </div>
+            <!-- Card 6 End -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Review Section S -->
 
     <!-- Footer Start -->
     <footer class="container-fluid py-4" style="background-color: #232429">
