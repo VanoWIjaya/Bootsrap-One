@@ -83,7 +83,19 @@
   margin-bottom: 12px;
 }
 
+.footer {
+  background-color: #595959;
+}
 
+.footer .social-icon {
+  font-size: 1.6rem;
+  color: #fff;
+  transition: .3s;
+}
+
+.footer .social-icon:hover {
+  color: #FFC107;
+}
 
 @media (min-width: 360px) and (max-width: 600px) {
   .card {

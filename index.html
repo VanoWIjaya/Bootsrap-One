@@ -21,111 +21,6 @@
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <style>
-    *,
-::after,
-::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.margin {
-  margin-top: 2rem;
-}
-
-.banner {
-  height: 100vh;
-  background:
-    linear-gradient(rgb(0, 0, 0, 0.75), rgba(0, 0, 0, 0.9)), url("bg.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
-.hovered-card:hover {
-  transform: scale(1.05);
-  transition: transform 0.3s ease-in-out;
-}
-
-.icon-service {
-  width: 90px;
-  height: 90px;
-  border: solid 2px #fff;
-  border-radius: 50%;
-  color: #ffff;
-}
-
-.testimony {
-  background-color: #263892 !important;
-}
-
-.testimony-card {
-  background: rgba(255, 255, 255, 0.07) !important;
-  border: 1px solid rgba(255, 255, 255, 0.15) !important;
-  border-radius: 16px;
-  padding: 28px;
-  transition: .3s;
-  height: 100%;
-}
-
-.testimony-card:hover {
-  transform: translateY(-6px);
-  background: rgba(255, 255, 255, 0.13);
-  border-color: rgba(255, 255, 255, 0.3);
-}
-
-.testimony-card .quote-icon {
-  font-size: 2rem;
-  color: rgba(255, 255, 255, 0.3);
-  line-height: 1;
-  margin-bottom: 10px;
-}
-
-.testimony-card h5 {
-  font-size: 1rem;
-  font-weight: 700;
-  color: #fff;
-  margin-bottom: 4px;
-}
-
-.testimony-card .author {
-  font-size: 0.8rem;
-  color: rgba(255, 255, 255, 0.55);
-  margin-bottom: 12px;
-}
-
-.testimony-card p {
-  font-size: 0.88rem;
-  color: rgba(255, 255, 255, 0.8);
-  line-height: 1.6;
-  margin-bottom: 0;
-}
-
-.testimony-card .stars {
-  color: #FFC107;
-  font-size: 0.85rem;
-  margin-bottom: 12px;
-}
-
-
-
-@media (min-width: 360px) and (max-width: 600px) {
-  .card {
-    width: 45%;
-    justify-content: center;
-    margin: 2rem auto;
-    display: flex;
-  }
-}
-
-@media (max-width: 768px) {
-  .sm-justify-center {
-    justify-content: center;
-    display: flex;
-    align-items: center;
-  }
-}
-  </style>
   <body>
     <!-- Navbar Start -->
     <section>
@@ -238,7 +133,7 @@
                 <div class="card-body">
                   <h5 class="card-title text-center">Promo Flash Sale</h5>
                   <p class="card-text" style="text-align: justify">
-                    Gratis Print Hitam Putih untuk pembelian apapun diatas
+                    Gratis Print Hitam Putih untuk Purchasebelian apapun diatas
                     25.000 dan 50.000
                   </p>
                   <a href="404.html" class="btn btn-primary">Beli</a>
@@ -272,7 +167,7 @@
                 <div class="card-body">
                   <h5 class="card-title text-center">Promo Buy 1 Get 1</h5>
                   <p class="card-text" style="text-align: justify">
-                    Untuk setiap pembelian 1 rim kertas HVS A4, gratis print
+                    Untuk setiap Purchasebelian 1 rim kertas HVS A4, gratis print
                     hitam putih 1 lembar
                   </p>
                   <a href="404.html" class="btn btn-primary">Beli</a>
@@ -722,12 +617,110 @@
         </div>
       </div>
     </section>
-    <!-- Review Section S -->
+    <!-- Review Section End -->
+
+    <!-- Purchase Section Start -->
+    <section id="Purchase">
+      <div class="container-fluid py-5">
+        <div class="container">
+          <h2 class="text-center mb-2">Reservasi</h2>
+          <p class="text-center text-secondary mb-5">Udah mutusin mau beli apa? Pesan sekarang !!!</p>
+          <div class="row justify-content-center">
+            <div class="col-md-6">
+
+              <div class="mb-3">
+                <label for="" class="form-label">Nama</label>
+                <input type="text" class="form-control">
+              </div>
+
+              <div class="mb-3">
+                <label for="" class="form-label">No. Kontak</label>
+                <input type="text" class="form-control">
+              </div>
+
+              <div class="mb-3">
+                <label for="" class="form-label">Barang yang dibeli</label>
+                <input type="text" class="form-control">
+              </div>
+
+              <div class="d-grid">
+                <button class="btn btn-primary text-light">Beli</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Purchase Section End -->
+
+    <!-- Subscribe Section Start-->
+    <section id="Subscribe">
+      <div class="container-fluid py-5 footer">
+        <div class="container">
+
+          <h5 class="text-center text-light mb-3">Temui Kami</h5>
+          <div class="d-flex justify-content-center mb-5" style="gap: 70px;">
+            <a href="#" target="_blank" class="social-icon">
+              <i class="bi bi-link"></i>
+            </a>
+            <a href="#" target="_blank" class="social-icon">
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a href="#" target="_blank" class="social-icon">
+              <i class="bi bi-youtube"></i>
+            </a>
+            <a href="#" target="_blank" class="social-icon">
+              <i class="bi bi-whatsapp"></i>
+            </a>
+          </div>
+            <h5 class="text-center text-light mb-1">Subscribe</h5>
+            <p class="text-center text-muted mb-3">Untuk informasi tentang promo</p>
+
+            <div class="row justify-content-center">
+              <div class="col-md-6">
+                <div class="input-group">
+                  <input type="email" class="form-control" placeholder="Ketikkan Email">
+                  <button class="btn btn-warning text-light">Subcribe</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Subscribe Section End-->
 
     <!-- Footer Start -->
-    <footer class="container-fluid py-4" style="background-color: #232429">
-      <div class="container text-center">
-        <p class="text-white mb-0">&copy; 2024 UP RPL. All rights reserved.</p>
+    <footer class="bg-dark container-fluid text-light py-4">
+      <div class="container">
+        <div class="row text-center text">
+          <div class="col-md-4 mb-3 mb-md-0">
+            <h5 class="fw-bold">Unit Pelayanan RPL</h5>
+            <p class="text-secondary small">Tempat ngeprint dengan pelayanan terbaik dan harga terjangkau.</p>
+          </div>
+          <div class="col-md-4 mb-3 mb-md-0">
+            <h6 class="fw-bold mb-3">Navigasi</h6>
+            <ul class="list-unstyled">
+              <li><a href="#Home" class="text-secondary text-decoration-none">Home</a></li>
+              <li><a href="#Product" class="text-secondary text-decoration-none">Produk</a></li>
+              <li><a href="#Promo" class="text-secondary text-decoration-none">Promo</a></li>
+              <li><a href="#Purchase" class="text-secondary text-decoration-none">Beli</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h6 class="fw-bold mb-3">Kontak</h6>
+            <ul class="list-unstyled text-secondary small">
+              <li class="mb-1"><i class="bi bi-geo-alt-fill me-2"></i>Tepat disebelah lab RPL 1 atau lantai diatas Aula.</li>
+              <li class="mb-1"><i class="bi bi-telephone-fill me-2"></i>+62 881 0366 07516</li>
+              <li class="mb-1"><i class="bi bi-telephone-fill me-2"></i>+62 838 6630 2815</li>
+              <li class="mb-1"><i class="bi bi-telephone-fill me-2"></i>+62 858 5279 5185</li>
+              <li class="mb-1"><i class="bi bi-telephone-fill me-2"></i>+62 819 9994 6978</li>
+              <li><i class="bi bi-envelope-fill me-2"></i>uprpl@gmail.com</li>
+            </ul>
+          </div>
+        </div>
+        <hr class="border-secondary mt-4 mb-3">
+        <p class="text-center text-secondary small mb-0">&copy; 2026 UP RPL. All rights reserved.</p>
       </div>
     </footer>
     <!-- Footer End -->
